@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Suprise</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/clickmestyle.css">
+</head>
+<body>
+	<section class="pictures">
+		<header>
+			<h2 class="logo">MY FAVOURITE PICTURE</h2>
+			<div class="nav">
+				<div class="nav-items">
+					<a href="welcomepage.html">Home</a>
+					<a href = "thankyou.html">Exit</a>
+				</div>
+			</div>
+		</header>
+
+		<!--<p>Recomended Song:</p>-->
+		<audio autoplay="" controls="">
+			<source src="sound/GFRIEND (여자친구) - Rough (시간을 달려서) (Instrumental) [3rd Mini Album SNOWFLAKE].mp3" type="audio/mp3"></source>
+		</audio>
+
+		<video src="video/video6.mp4" muted loop autoplay></video>
+
+		<div class="overlay"></div>
+		<!-- image slider start -->
+        <div class="slider">
+            <div class="slides">
+                <!-- radio buttons start -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+                <input type="radio" name="radio-btn" id="radio7">
+                <input type="radio" name="radio-btn" id="radio8">
+                <input type="radio" name="radio-btn" id="radio9">
+                <input type="radio" name="radio-btn" id="radio10">
+                <!-- radio buttons end -->
+                <!-- slide images start -->
+                <div class="slide first">
+                    <img src="image/img1.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/img2.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/img3.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/img4.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/img7.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/img8.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/img9.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/img10.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/img11.jpeg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="image/img12.jpeg" alt="">
+                </div>
+                <!-- slide image end -->
+                <!-- automatic navigation start -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                    <div class="auto-btn6"></div>
+                    <div class="auto-btn7"></div>
+                    <div class="auto-btn8"></div>
+                    <div class="auto-btn9"></div>
+                    <div class="auto-btn10"></div>
+                </div>
+                <!-- automatic navigation end -->
+            </div>
+            <!-- manual navigation start -->
+            <!--<div class="navigation-manula">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>-->
+            <!-- manual navigation end -->
+        </div>
+        <!-- image slider end -->
+
+        <script type="text/javascript">
+        	var counter = 1;
+        	setInterval(function(){
+        		document.getElementById('radio' + counter).checked = true;
+        		counter++;
+        		if(counter > 10){
+        			counter = 1;
+        		}
+        	}, 5000);
+        </script>
+    </section>
+</body>
+</html>

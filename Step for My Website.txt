@@ -1,0 +1,15 @@
+1. Firstly open welcomepage.html. You can click ABOUT ME button to get started. You can also skip ABOUT ME (aboutme.html) and click Hobby or Gallery or Contact Me or Click Me in this page or else you can click Exit to end the page.
+
+2. When you Click ABOUT ME, it will go to aboutme.html. In ABOUT ME page, you can listen music while reading my bio, click the music to listen.
+
+3. Next, if you scroll below my bio, you can see button for HOBBY, if you click HOBBY it will go to hobby.html and you can know what is my hobby. In MY HOBBY, you can also listen to my recommended song below left-bottom.
+
+4. In MY HOBBY, you can go directly to GALLERY (gallery.html) in MY HOBBY without go back to Home (welcomepage.html).
+
+5. You can click CONTACT ME and it will go to contactme.html. At upper right, you can click Home to go back to welcomepage.html or you can click Exit to exit my website.
+
+6. If you click CONTACT ME, you can send any message to me and if you interest to see what is in Click Me, you can click Click Me. in Click Me, there will be pictures auto generate slide.
+
+7. You can leave anytime you want and back to home page because I prepared exit and home page in every page for my website.
+
+8. In Exit page, it will go to thankyou.html. That's all, Thank you.
