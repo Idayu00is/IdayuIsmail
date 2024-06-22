@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @IdayuIsmail
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
+- 👀 I’m interested in Multimedia and drawing
+- 🌱 I’m currently learning Computer Science (Hons.) Multimedia Computing
+- 💞️ I’m looking to collaborate on any company
 - 📫 How to reach me email : ismailrosmaidayu@gmail.com
 
 <!---
